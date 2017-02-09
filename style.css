@@ -22,7 +22,7 @@ header .container, main .container, footer .container{
 
 header{
 	background: white;
-	overflow: auto;
+	overflow: hidden;
 }
 
 header h1{
@@ -37,22 +37,25 @@ header nav{
 
 main{
 	background: white;
+	overflow: hidden;
+	display: block;
 }
 
 main .content{
 	float: left;
-	min-width: 570px;
+	width: 570px;
 	background: white;
 }
 
 main .lightbulb{
-	
-	min-width: 285px;
+	float: right;
+	width: 285px;
 	background: white;
 }
 
 footer{
 	clear: both;
+	overflow: hidden;
 }
 
 footer .contact{
