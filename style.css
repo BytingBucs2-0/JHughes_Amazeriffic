@@ -1,0 +1,70 @@
+/*
+Joshua M. Hughes
+COP2830
+2/9/2017
+Professor Barrell
+
+Amazerific - Styles.css
+*/
+
+body{
+	background: #f9e933;
+}
+
+header, main, footer{
+	min-width: 855px;	
+}
+
+header .container, main .container, footer .container{
+	max-width: 855px;
+	margin: auto;
+}
+
+header{
+	background: white;
+	overflow: auto;
+}
+
+header h1{
+	float: left;
+	width: 570px;
+}
+
+header nav{
+	float: right;
+	width: 285px;
+}
+
+main{
+	background: white;
+}
+
+main .content{
+	float: left;
+	min-width: 570px;
+	background: white;
+}
+
+main .lightbulb{
+	
+	min-width: 285px;
+	background: white;
+}
+
+footer{
+	clear: both;
+}
+
+footer .contact{
+	float: left;
+	min-width: 570px;
+}
+
+footer .sitemap{
+	float: right;
+	min-width: 285px; 
+}
+
+
+
+
